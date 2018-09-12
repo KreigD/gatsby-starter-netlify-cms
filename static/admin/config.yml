@@ -22,6 +22,7 @@ collections:
   - name: "pages"
     label: "Pages"
     create: true
+    folder: "src/pages"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "{{title}}-page"}
       - {label: "Title", name: "title", widget: "string"}
